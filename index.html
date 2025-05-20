@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carrusel de Temas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Estructura del sistema financiero mexicano</h1>
+  </header>
+
+  <main>
+    <!-- Sector Bursátil -->
+    <section class="sector">
+      <h2>Sector Bursátil</h2><br>
+      <div class="card-container" id="bursatil-container"></div>
+    </section><br>
+    <!-- Sector de Derivados -->
+    <section class="sector">
+      <h2>Sector de Derivados</h2><br>
+      <div class="card-container" id="derivados-container"></div>
+    </section><br>
+  </main>
+
+  <!-- Modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="topic-title" id="topicTitle"></div>
+      <div class="topic-sector" id="topicSector"></div>
+      <div class="topic-description" id="topicDesc"></div>
+      <img id="topicImage" class="topic-image" src="" alt="Imagen del tema" /><br>
+      <button class="carousel-btn prev">&#10094;</button>
+      <button class="carousel-btn next">&#10095;</button>
+    </div>
+  </div>
+<footer>
+  <p> Galán González Blanca Esther &nbsp; ||&nbsp;
+González Hernandez Jimena Edith &nbsp;||&nbsp;
+Macias Santos Angel Harvey &nbsp;  || &nbsp;
+Morales Navarro Javier Arturo</p> 
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
